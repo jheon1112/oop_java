@@ -22,6 +22,7 @@ public class Homework3 {
                 max = numArray[i];
             }
         }
+        
         for (int i=1; i<num; i++){
             if (min > numArray[i]){
                 min = numArray[i];
@@ -32,3 +33,4 @@ public class Homework3 {
         System.out.println("최소값: " + min);
     }
 }
+
